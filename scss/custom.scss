@@ -89,8 +89,8 @@ nav {
   background-color: #FAFAFA;
   font-family: 'Comfortaa', cursive;
   background:
-          url('../images/veg background.png') top left repeat-y ,
-          url('../images/veg background.png') top right repeat-y;
+          url('../images/veg background-min.png') top left repeat-y ,
+          url('../images/veg background-min.png') top right repeat-y;
   background-size: 10%;
 }
 
@@ -112,17 +112,6 @@ nav {
   background-color: #F5F7F4;
   width: 80%;
 }
-
-//body {
-//  //background-image: url('../images/Untitled-3.png') ;
-//}
-
-//.menu_text {
-//  background-image: url(../images/menu.png);
-//  background-size: cover;
-//  height: 100vh;
-//}
-
 
 
 .wrapper {
@@ -159,7 +148,7 @@ footer {
   height: 100px;
   margin-top:0px;
   background:
-          url('../images/footer.png') center center repeat;
+          url('../images/footer-min.png') center center repeat;
   background-size: contain;
 
 }

@@ -11364,7 +11364,7 @@ nav {
 .main {
   background-color: #FAFAFA;
   font-family: "Comfortaa", cursive;
-  background: url("/veg background.d92be0ed.png") top left repeat-y, url("/veg background.d92be0ed.png") top right repeat-y;
+  background: url("/veg background-min.1cd44015.png") top left repeat-y, url("/veg background-min.1cd44015.png") top right repeat-y;
   background-size: 10%;
 }
 
@@ -11443,7 +11443,7 @@ footer {
   position: relative;
   height: 100px;
   margin-top: 0px;
-  background: url("/footer.ce27689a.png") center center repeat;
+  background: url("/footer-min.7ec0b312.png") center center repeat;
   background-size: contain;
 }
 
