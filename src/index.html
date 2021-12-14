@@ -140,38 +140,16 @@
             <br>
             <b>£30.00</b> per person.
         </p>
-        <form name="contact" method="POST" data-netlify="true">
-            <p>
-                <label>Your Name: <input type="text" name="name" /></label>
-            </p>
-            <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-                <label>Your Role: <select name="role[]" multiple>
-                    <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
-                </select></label>
-            </p>
-            <p>
-                <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
-        </form>
+
     </div>
 
         <h2 class="main_text text-center m-5 fs-1">Join OUR mailing list for special offers</h2>
         <div class="container delivery navbar subscribe shadow-lg p-3 mb-5 rounded">
             <div class="container-fluid justify-content-center" >
-                <form class="d-flex" name="subscribe" method="POST" data-netlify="true">
-
-                        <input class="form-control me-2" type="email" placeholder="Your email address..." aria-label="Subscribe"/></label>
-
+                <form name="subscribe" method="POST" data-netlify="true" class="d-flex" >
+                    <input class="form-control me-2" type="email" placeholder="Your email address..." aria-label="Subscribe"/>
                     <button class="btn btn-outline-success" type="submit">Subscribe</button>
                 </form>
-
             </div>
         </div>
 
