@@ -9,7 +9,9 @@ npm install
 ```
 npm run dev
 ```
-
+```
+Click link generated: 
+```
 ###Software used during development
 
 ```
@@ -22,5 +24,5 @@ Google Chrome
 Mozilla Firefox
 ```
 ```
-WSL2
+WSL2 (Windows Subsystem for Linux)
 ```
