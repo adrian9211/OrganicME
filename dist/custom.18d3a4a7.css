@@ -11593,4 +11593,14 @@ footer {
   border-radius: 4px;
 }
 
+.coffee-btn {
+  background-color: #A79B94;
+  border-color: #A79B94;
+}
+
+.coffee-btn:hover {
+  background-color: #A7967E;
+  border-color: #A7967E;
+}
+
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */
