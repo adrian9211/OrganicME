@@ -141,7 +141,7 @@
                 <div class="container contact-form py-4 mx-auto d-block">
 
                     <!-- Bootstrap 5 starter form -->
-                    <form id="contactForm" method="POST" data-netlify="true" data-sb-form-api-token="API_TOKEN">
+                    <form id="contactForm" action="POST" method="POST" data-netlify="true" data-sb-form-api-token="API_TOKEN" data-netlify-recaptcha="true">
                         <h2 class="main_text text-center pt-sm-0 pt-md-1 pt-lg-2 pb-4 fs-1 mb-4">Get in touch</h2>
 
                         <!-- Name input -->
@@ -165,6 +165,8 @@
                             <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
                             <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                         </div>
+
+                        <div data-netlify-recaptcha="true"></div>
 
                         <!-- Form submissions success message -->
                         <div class="d-none" id="submitSuccessMessage">
