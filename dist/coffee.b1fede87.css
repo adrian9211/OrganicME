@@ -1,11 +1,16 @@
 .main_content {
   background-color: #FAF3EB;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 30px;
   font-family: "Comfortaa", cursive;
 }
 
 ul {
   list-style-image: url("/pngwing.com (3)1.87e63186.png");
+}
+
+.background_img {
+  width: 20%;
 }
 
 /*# sourceMappingURL=/coffee.b1fede87.css.map */
