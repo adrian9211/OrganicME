@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../assets/css/fontawesome.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../assets/css/fontawesome.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../webfonts/fa-brands-400.eot":[["fa-brands-400.3361397b.eot","../assets/webfonts/fa-brands-400.eot"],"../assets/webfonts/fa-brands-400.eot"],"./../webfonts/fa-brands-400.woff2":[["fa-brands-400.0ed30bff.woff2","../assets/webfonts/fa-brands-400.woff2"],"../assets/webfonts/fa-brands-400.woff2"],"./../webfonts/fa-brands-400.woff":[["fa-brands-400.198b4196.woff","../assets/webfonts/fa-brands-400.woff"],"../assets/webfonts/fa-brands-400.woff"],"./../webfonts/fa-brands-400.ttf":[["fa-brands-400.5f3251d5.ttf","../assets/webfonts/fa-brands-400.ttf"],"../assets/webfonts/fa-brands-400.ttf"],"./../webfonts/fa-brands-400.svg":[["fa-brands-400.e06029db.svg","../assets/webfonts/fa-brands-400.svg"],"../assets/webfonts/fa-brands-400.svg"],"./../webfonts/fa-regular-400.eot":[["fa-regular-400.b25cd416.eot","../assets/webfonts/fa-regular-400.eot"],"../assets/webfonts/fa-regular-400.eot"],"./../webfonts/fa-regular-400.woff2":[["fa-regular-400.d9744952.woff2","../assets/webfonts/fa-regular-400.woff2"],"../assets/webfonts/fa-regular-400.woff2"],"./../webfonts/fa-regular-400.woff":[["fa-regular-400.43365c0e.woff","../assets/webfonts/fa-regular-400.woff"],"../assets/webfonts/fa-regular-400.woff"],"./../webfonts/fa-regular-400.ttf":[["fa-regular-400.e814edf3.ttf","../assets/webfonts/fa-regular-400.ttf"],"../assets/webfonts/fa-regular-400.ttf"],"./../webfonts/fa-regular-400.svg":[["fa-regular-400.74e3ed17.svg","../assets/webfonts/fa-regular-400.svg"],"../assets/webfonts/fa-regular-400.svg"],"./../webfonts/fa-solid-900.eot":[["fa-solid-900.22c41556.eot","../assets/webfonts/fa-solid-900.eot"],"../assets/webfonts/fa-solid-900.eot"],"./../webfonts/fa-solid-900.woff2":[["fa-solid-900.e93f3078.woff2","../assets/webfonts/fa-solid-900.woff2"],"../assets/webfonts/fa-solid-900.woff2"],"./../webfonts/fa-solid-900.woff":[["fa-solid-900.b72d24f9.woff","../assets/webfonts/fa-solid-900.woff"],"../assets/webfonts/fa-solid-900.woff"],"./../webfonts/fa-solid-900.ttf":[["fa-solid-900.2a9d6027.ttf","../assets/webfonts/fa-solid-900.ttf"],"../assets/webfonts/fa-solid-900.ttf"],"./../webfonts/fa-solid-900.svg":[["fa-solid-900.5ed595f0.svg","../assets/webfonts/fa-solid-900.svg"],"../assets/webfonts/fa-solid-900.svg"],"_css_loader":"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../webfonts/fa-brands-400.eot":[["fa-brands-400.3361397b.eot","../assets/webfonts/fa-brands-400.eot"],"../assets/webfonts/fa-brands-400.eot"],"./../webfonts/fa-brands-400.woff2":[["fa-brands-400.0ed30bff.woff2","../assets/webfonts/fa-brands-400.woff2"],"../assets/webfonts/fa-brands-400.woff2"],"./../webfonts/fa-brands-400.woff":[["fa-brands-400.198b4196.woff","../assets/webfonts/fa-brands-400.woff"],"../assets/webfonts/fa-brands-400.woff"],"./../webfonts/fa-brands-400.ttf":[["fa-brands-400.5f3251d5.ttf","../assets/webfonts/fa-brands-400.ttf"],"../assets/webfonts/fa-brands-400.ttf"],"./../webfonts/fa-brands-400.svg":[["fa-brands-400.e06029db.svg","../assets/webfonts/fa-brands-400.svg"],"../assets/webfonts/fa-brands-400.svg"],"./../webfonts/fa-regular-400.eot":[["fa-regular-400.b25cd416.eot","../assets/webfonts/fa-regular-400.eot"],"../assets/webfonts/fa-regular-400.eot"],"./../webfonts/fa-regular-400.woff2":[["fa-regular-400.d9744952.woff2","../assets/webfonts/fa-regular-400.woff2"],"../assets/webfonts/fa-regular-400.woff2"],"./../webfonts/fa-regular-400.woff":[["fa-regular-400.43365c0e.woff","../assets/webfonts/fa-regular-400.woff"],"../assets/webfonts/fa-regular-400.woff"],"./../webfonts/fa-regular-400.ttf":[["fa-regular-400.e814edf3.ttf","../assets/webfonts/fa-regular-400.ttf"],"../assets/webfonts/fa-regular-400.ttf"],"./../webfonts/fa-regular-400.svg":[["fa-regular-400.74e3ed17.svg","../assets/webfonts/fa-regular-400.svg"],"../assets/webfonts/fa-regular-400.svg"],"./../webfonts/fa-solid-900.eot":[["fa-solid-900.22c41556.eot","../assets/webfonts/fa-solid-900.eot"],"../assets/webfonts/fa-solid-900.eot"],"./../webfonts/fa-solid-900.woff2":[["fa-solid-900.e93f3078.woff2","../assets/webfonts/fa-solid-900.woff2"],"../assets/webfonts/fa-solid-900.woff2"],"./../webfonts/fa-solid-900.woff":[["fa-solid-900.b72d24f9.woff","../assets/webfonts/fa-solid-900.woff"],"../assets/webfonts/fa-solid-900.woff"],"./../webfonts/fa-solid-900.ttf":[["fa-solid-900.2a9d6027.ttf","../assets/webfonts/fa-solid-900.ttf"],"../assets/webfonts/fa-solid-900.ttf"],"./../webfonts/fa-solid-900.svg":[["fa-solid-900.5ed595f0.svg","../assets/webfonts/fa-solid-900.svg"],"../assets/webfonts/fa-solid-900.svg"],"_css_loader":"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34133" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38945" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/fontawesome.aa907efa.js.map

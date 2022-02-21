@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/custom.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/custom.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../images/pexels-lukas-616401.jpg":[["pexels-lukas-616401.c5023846.jpg","../images/pexels-lukas-616401.jpg"],"../images/pexels-lukas-616401.jpg"],"./../images/images/image1.jpg":[["image1.f1467c96.jpg","../images/images/image1.jpg"],"../images/images/image1.jpg"],"./../images/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg":[["ella-olsson-KPDbRyFOTnE-unsplash.0de71617.jpg","../images/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg"],"../images/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg"],"./../images/veg background-min.png":[["veg background-min.1cd44015.png","../images/veg background-min.png"],"../images/veg background-min.png"],"./../images/footer-min.png":[["footer-min.7ec0b312.png","../images/footer-min.png"],"../images/footer-min.png"],"./../images/images/image3.jpg":[["image3.9300b073.jpg","../images/images/image3.jpg"],"../images/images/image3.jpg"],"./../images/images/image10.jpg":[["image10.4eb6b1db.jpg","../images/images/image10.jpg"],"../images/images/image10.jpg"],"_css_loader":"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/pexels-lukas-616401.jpg":[["pexels-lukas-616401.c5023846.jpg","../images/pexels-lukas-616401.jpg"],"../images/pexels-lukas-616401.jpg"],"./../images/images/image1.jpg":[["image1.f1467c96.jpg","../images/images/image1.jpg"],"../images/images/image1.jpg"],"./../images/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg":[["ella-olsson-KPDbRyFOTnE-unsplash.0de71617.jpg","../images/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg"],"../images/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg"],"./../images/veg background-min.png":[["veg background-min.1cd44015.png","../images/veg background-min.png"],"../images/veg background-min.png"],"./../images/footer-min.png":[["footer-min.7ec0b312.png","../images/footer-min.png"],"../images/footer-min.png"],"./../images/images/image3.jpg":[["image3.9300b073.jpg","../images/images/image3.jpg"],"../images/images/image3.jpg"],"./../images/images/image10.jpg":[["image10.4eb6b1db.jpg","../images/images/image10.jpg"],"../images/images/image10.jpg"],"_css_loader":"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34133" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38945" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../../home/adrian/.nvm/versions/node/v12.18.3/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/custom.18d3a4a7.js.map

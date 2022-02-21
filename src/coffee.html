@@ -15,6 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="../src/index.js"></script>
+
     <title>Organic Me</title>
 </head>
 <body>
@@ -60,7 +64,7 @@
     </div>
 </nav>
 
-<div class="container main_content d-block shadow-lg p-3 mb-5 rounded">
+<div class="container main_content d-block shadow-lg p-3 mb-5 rounded " data-aos="fade-in" data-aos-delay="200">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -148,24 +152,248 @@
     </div>
 </div>
 
+<!--Menu section -->
 
-<div class="container main_content d-block shadow-lg p-3 mb-5 rounded">
+<div class="container main_content d-block shadow-lg p-3 mb-5 rounded menu" id="menu">
     <div class="container">
-        <div class="row">
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-md-12 col-sm-0">
-                <img src="../images/menu-min.png" class="img-fluid menu mx-auto d-block" alt="menu">
+            <h2 class="main_text text-center m-5 fs-1  ">Check Our Tasty Menu</h2>
+
+            <p class="text-center m-5 fs-5 ">Coffee <br>
+            </p>
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(4).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Filter Coffee </a><span>£1.50</span>
+                </div>
             </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(5).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Americano</a><span>£2.25</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(10).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Cappuccino</a><span>£2.70</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(60).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Latte </a><span>£2.70</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing111.png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Flat White </a><span>$9.95</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(20).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Espresso (double) </a><span>£1.50</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(30).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Macchiato (double) </a><span>£1.70</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(40).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Mocha</a><span>£2.90</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(50).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Hot Chocolate </a><span>£3.00</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(6).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Chai Latte </a><span>£2.70</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/pngwing.com%20(70).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Tea </a><span>£2.10</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <div class="menu-ingredients">
+                    (Skinny, Soy and Almond Milk Available)
+                </div>
+                <div class="menu-content">
+                    <a href="https://www.deargreencoffee.com/">We use Dear Green Coffee Products</a>
+                </div>
+            </div>
+
+
+            <br>
+
+            <p class="text-center m-5 fs-5 ">Soft Drinks <br>
+            </p>
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/water.png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">ONE Sparkling Water </a><span>£2.00</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/coffee/juice.png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#"><b>ONE</b> Juiced Water </a><span>£1.80</span>
+                </div>
+                <div class="menu-ingredients">
+                    Orange and Mango – Lemon and Lime – Cloudy Apple
+                    <br>
+                    <a  class="menu-link2" href="https://onewater.org.uk/products/one-water-sparkling/">(ONE is a company committed to providing life’s essentials to communities across Africa)</a>
+                </div>
+            </div>
+
+            <p class="text-center m-5 fs-5 ">Food<br>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com.png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Summer Berry Granola</a><span>£4.95 </span>
+                </div>
+            <div class="menu-ingredients">
+                Mixed Berries & chunky oats, nuts & seeds with fresh yoghurt & honey
+            </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(1).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Kimchi Chilli Scramble </a><span>£9.50</span>
+                </div>
+                <div class="menu-ingredients">
+                    Scrambled eggs, with house-made Kimchi, crispy leeks, coriander, black sesame, miso & garlic aioli add Puddledub smoked bacon £2
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(2).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Eggs How You Like</a><span>£5.95</span>
+                </div>
+                <div class="menu-ingredients">
+                    Two Corrie Mains Farm free range eggs scrambled or poached on company bakery sourdough
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(3).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Toast Stack </a><span>£3.95</span>
+                </div>
+                <div class="menu-ingredients">
+                    Company bakery sourdough, rye or fruit toast with a choice of two Edinburgh butter, honey, peanut butter, vegemite, nutella, Scottish seasonal jam or marmalade
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(4).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Smoked Haddock Omelette </a><span>£9.95</span>
+                </div>
+                <div class="menu-ingredients">
+                    3 egg omelette with Scottish smoked haddock, smoked cheddar sauce & pea shoots
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(5).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Summer Veg Smash </a><span>£8.95 </span>
+                </div>
+                <div class="menu-ingredients">
+                    Roast tomato, aubergine, red pepper & courgette with garlic hummus & basil on sourdough
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(6).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Scottish Smoked Fish Plate </a><span>£12.95 </span>
+                </div>
+                <div class="menu-ingredients">
+                    Tobermory trout, smoked mackerel pate, soft boiled egg, pickled cucumber, crowdie, beetroot & rye toast and oatcakes
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(7).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Scottish Cheese & Charcuterie </a><span>£11.95 </span>
+                </div>
+                <div class="menu-ingredients">
+                    A selection of Scottish cheese & charcuterie with pickled egg, oatcakes and sourdough toast
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(8).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Cake of the Day (Slice)  </a><span>) £1.50</span>
+                </div>
+                <div class="menu-ingredients">
+                    Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(9).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Scone of the Day with Jam and Butter   </a><span>) £1.50</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 menu-item ">
+                <img src="../images/food/pngwing.com%20(10).png" class="menu-img" alt="">
+                <div class="menu-content">
+                    <a href="#">Muffin of the Day  </a><span>) £1.50</span>
+                </div>
+            </div>
+
         </div>
+        <p class="text-center m-5 fs-5 ">We source our food responsibly, supporting small local food producers and suppliers.
+            <br>
+            Organic, local and sustainable produce will feature across the menu, changing slightly depending on season and what our local farms and suppliers have available <br>
+        </p>
     </div>
 </div>
+
+<!--Menu section -->
 
 
 
     <!--    Mailing list -->
 
-    <h2 class="main_text text-center m-5 fs-1">Join our mailing list for special offers</h2>
-    <div class="container delivery  subscribe shadow-lg p-3 mb-5 rounded">
+    <h2 class="main_text text-center m-5 fs-1" data-aos="fade-in" data-aos-delay="200">Join our mailing list for special offers</h2>
+    <div class="container delivery  subscribe shadow-lg p-3 mb-5 rounded" data-aos="fade-in" data-aos-delay="200">
         <div class="container-fluid" >
             <form name="subscribe" method="POST" data-netlify="true" class="row justify-content-sm-center" >
                 <div class="col-7 me-2 mb-xsm-5">
@@ -182,7 +410,7 @@
 
 
     <!--    Social media icons-->
-    <div class="container-fluid social_media">
+    <div class="container-fluid social_media" >
         <div class="row justify-content-end mb-5 ">
             <div class="col-md-5 gap-3 ">
                 <div class="row justify-content-center gap-3">
@@ -202,7 +430,7 @@
     </div>
 
     <!-- Footer section -->
-    <footer class="footer text-center fw-bold fs-5 pt-4 mb-2 ">
+    <footer class="footer text-center fw-bold fs-5 pt-4 mb-2 h-30 ">
         <span >&copy; 2021 Organic ME - Kirkcaldy, Fife, Scotland.</span>
     </footer>
     <!-- Footer section -->
