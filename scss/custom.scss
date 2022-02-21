@@ -105,10 +105,6 @@ nav {
   font-family: 'Dancing Script', cursive;
 }
 
-.menu {
-  width: 70%;
-}
-
 .course {
   background-color: #F5F7F4;
   width: 80%;
@@ -147,13 +143,15 @@ nav {
 
 footer {
   position:relative;
-  height: 15vh;
   background:
           url('../images/footer-min.png') center center repeat;
   background-size: contain;
-
 }
 
+.footer_box {
+  background-color: #F5F7F4;
+  text-align: center;
+}
 .link_footer {
   text-decoration: none;
   color: black;

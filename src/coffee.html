@@ -37,7 +37,7 @@
                     <a class="nav-link" aria-current="page" href="../src/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="../src/shop.html">Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="../src/course.html">Courses</a>
@@ -69,7 +69,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <h2 class="main_text text-center pt-sm-0 pt-md-1 pt-lg-2  fs-1  mt-5">Coffee Shop</h2>
-                <img class="background_img" src="../images/coffee/pngwing.com (7).png" class="d-block w-10 " alt="coffee 1">
+                <img  src="../images/coffee/pngwing.com (7).png" class="d-block w-10 background_img" alt="coffee 1">
 
                 <div class="ps-5">
 
@@ -154,9 +154,9 @@
 
 <!--Menu section -->
 
-<div class="container main_content d-block shadow-lg p-3 mb-5 rounded menu" id="menu">
+<div class="container main_content d-block shadow-lg p-3 mb-5 rounded menu"  data-aos="fade-up" data-aos-delay="200">
     <div class="container">
-        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row menu-container">
 
             <h2 class="main_text text-center m-5 fs-1  ">Check Our Tasty Menu</h2>
 
@@ -429,30 +429,41 @@
         <!--    Social media icons-->
     </div>
 
-    <!-- Footer section -->
-    <footer class="footer text-center fw-bold fs-5 pt-4 mb-2 h-30 ">
-        <span >&copy; 2021 Organic ME - Kirkcaldy, Fife, Scotland.</span>
+<!-- Footer section -->
+<div class="container">
+    <footer class="footer text-center fw-bold fs-6 pt-4 mb-2 ">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4 col-sm-12 footer_box  ">
+                <div class="p-3">
+                    <address class="text-muted">Address: 22 Portinscale, Keswick,<br> Cumbria, <br> CA12 5RF, United Kingdom</address>
+                    <span>Tel: 017687 72912</span>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 footer_box ">
+                <div class="p-3">
+                    Opening Hours:
+                    <br>
+                    Monday - Friday: 8am - 3pm
+                    <br>
+                    Saturday - 8.30am - 8pm
+                    <br>
+                    Sunday - 8.30am - 9pm
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-8 col-sm-12 fs-5 p-3 footer_box">
+                <span >&copy; 2021 Organic ME - Kirkcaldy, Fife, Scotland.</span>
+            </div>
+        </div>
     </footer>
-    <!-- Footer section -->
 </div>
+
+<!-- Footer section -->
 
 <!--Main content-->
 
 <script src="./index.js"></script>
-
-<script type="module">
-    import 'https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js';
-
-    const lightbox = GLightbox({
-        'touchNavigation': true,
-        'href': 'https://youtu.be/xU1E2SHA3rs',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoPlayVideos': 'true',
-    });
-</script>
-
-
 </body>
 </html>

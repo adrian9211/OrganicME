@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="../src/index.js"></script>
     <title>Organic Me</title>
 </head>
 <body>
@@ -32,7 +35,7 @@
                     <a class="nav-link" aria-current="page" href="../src/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="../src/shop.html">Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="../src/course.html">Courses</a>
@@ -62,7 +65,7 @@
 
 
 <!-- Slideshow section -->
-<div class="container ">
+<div class="container " data-aos="fade" data-aos-delay="200">
     <div id="carouselExampleCaptions" class="carousel slide shadow-lg rounded" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -130,12 +133,12 @@
 
 <!-- Slideshow section -->
 
-<div class="container main">
+<div class="container main" >
 <!--    Organic Gardening Course -->
 
     <h2 class="main_text text-center m-5 fs-1">Organic Gardening Course</h2>
 
-    <div class="container course p-5 shadow-lg p-3 mb-5 rounded ">
+    <div class="container course p-5 shadow-lg p-3 mb-5 rounded " data-aos="fade-up" data-aos-delay="200" >
         <h3>Grown on your own - Introduction</h3>
         <p>
             This one-day course is designed as an introduction for potential new GARDENERS interested in growing their own vegetable with less than 2 years’ experience.
@@ -156,11 +159,16 @@
             <br>
             <b>£30.00</b> per person.
         </p>
+        <div class="video">
+            <div class="ratio ratio-21x9">
+                <iframe src="https://youtu.be/1mmS5rlR5ts" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 <!--    Organic Gardening Course -->
 
     <h2 class="main_text text-center m-5 fs-1">Want to buy something? </h2>
-<div class="offers">
+<div class="offers" data-aos="fade-up" data-aos-delay="200">
     <div class="row m-0 p-2 em-sm-2 ms-sm-2 mb-sm-2 p-sm-2 me-slg-3 ms-slg-3 mb-slg-3 p-slg-3 me-xl-5 ms-xl-5 mb-xl-5 ps-xl-5 pe-xl-5 pb-xl-5 gap-5">
         <div class="col header_left_img shadow-lg   rounded">
             <h2 class="fs-1 text-center">Veg</h2>
@@ -179,7 +187,7 @@
     <h2 class="main_text text-center fs-2">always remember </h2>
 
     <!--Header section-->
-    <div class="container delivery delivery2">
+    <div class="container delivery delivery2" data-aos="fade-up" data-aos-delay="200">
         <div class="row mt-5 shadow-lg p-3 mb-5 rounded">
             <div class="col d-flex p-2 gap-3">
                 <div class="circle ">
@@ -212,7 +220,7 @@
     <!--    Mailing list -->
 
     <h2 class="main_text text-center m-5 fs-1">Join our mailing list for special offers</h2>
-    <div class="container delivery  subscribe shadow-lg p-3 mb-5 rounded">
+    <div class="container delivery  subscribe shadow-lg p-3 mb-5 rounded" data-aos="fade-up" data-aos-delay="200">
         <div class="container-fluid" >
             <form name="subscribe" method="POST" data-netlify="true" class="row justify-content-sm-center" >
                 <div class="col-7 me-2 mb-xsm-5">
@@ -229,7 +237,7 @@
 
 
     <!--    Social media icons-->
-    <div class="container-fluid social_media">
+    <div class="container-fluid social_media" data-aos="fade-up" data-aos-delay="200">
         <div class="row justify-content-end mb-5 ">
             <div class="col-md-5 gap-3 ">
                 <div class="row justify-content-center gap-3">
@@ -247,31 +255,41 @@
         </div>
         <!--    Social media icons-->
     </div>
+    <!-- Footer section -->
+    <footer class="footer text-center fw-bold fs-6 pt-4 mb-2 ">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4 col-sm-12 footer_box  ">
+                <div class="p-3">
+                    <address class="text-muted">Address: 22 Portinscale, Keswick,<br> Cumbria, <br> CA12 5RF, United Kingdom</address>
+                    <span>Tel: 017687 72912</span>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 footer_box ">
+                <div class="p-3">
+                    Opening Hours:
+                    <br>
+                    Monday - Friday: 8am - 3pm
+                    <br>
+                    Saturday - 8.30am - 8pm
+                    <br>
+                    Sunday - 8.30am - 9pm
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-8 col-sm-12 fs-5 p-3 footer_box">
+                <span >&copy; 2021 Organic ME - Kirkcaldy, Fife, Scotland.</span>
+            </div>
+        </div>
 
-        <!-- Footer section -->
-        <footer class="footer text-center fw-bold fs-5 pt-4 mb-2 ">
-            <span >&copy; 2021 Organic ME - Kirkcaldy, Fife, Scotland.</span>
-        </footer>
-        <!-- Footer section -->
+
+    </footer>
+    <!-- Footer section -->
     </div>
 
     <!--Main content-->
-
-    <script src="./index.js"></script>
-
-    <script type="module">
-        import 'https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js';
-
-        const lightbox = GLightbox({
-            'touchNavigation': true,
-            'href': 'https://youtu.be/xU1E2SHA3rs',
-            'type': 'video',
-            'source': 'youtube', //vimeo, youtube or local
-            'width': 900,
-            'autoPlayVideos': 'true',
-        });
-    </script>
-
+<script src="./index.js"></script>
 
 </body>
 </html>
